@@ -1,4 +1,38 @@
-header {
-    background-color: rgb(133, 189, 133);
-    color: rgb(245, 236, 236);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho {
+    background-color: rgb(252, 250, 250);
+    color: rgb(10, 15ss, 10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10;
+}
+
+.cabecalho-imagem {
+    width: 10%;
+    margin: 0 0px;
+}
+
+.cabecalho-lista-item {
+    display: flex;
+    justify-content: center;
+    margin-right: 1400px;
+}
+
+.cabecalho-imagem-romero {
+    width: 20%;
+}
+
+main {
+    height: 50vh;
+}
+
+.Corinthians {
+    margin-right: 500px;
+    font-size: 100px;
 }
